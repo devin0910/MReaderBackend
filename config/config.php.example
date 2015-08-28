@@ -1,0 +1,13 @@
+<?php
+
+$config = [
+	'host'       => 'localhost',
+    'user'       => 'rootuser',
+    'password'   => 'rootuser',
+    'database'   => 'our_database',
+
+    'fetchMode'  => \PDO::FETCH_ASSOC,
+    'charset'    => 'utf8',
+    'port'       => 3306,
+    'unixSocket' => null,
+];
